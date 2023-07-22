@@ -218,7 +218,9 @@ h1 {
 .unit-service-card {
   display: grid;
   grid-template-rows: 200px 200px;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 25rem 25rem;
+  justify-content: center;
+  margin: 30px 0;
 }
 
 .unit-card1 {
@@ -228,13 +230,14 @@ h1 {
 }
 
 .unit-card1-image {
-  width: 40%;
+  width: 30%;
   height: 40%;
-  margin: 50px 150px 0 150px;
+  margin: 30px 165px 0 165px;
 }
 
 .unit-service-ttl1 {
   text-align: center;
+  margin: 0 0 20px 0;
   color: #fff;
   font-size: 24px;
   font-weight: bold;
@@ -244,8 +247,9 @@ h1 {
   color: #fff;
   text-align: left;
   white-space: nowrap;
-  margin: 0 70px;
+  margin: 0 20px;
   line-height: 1.75;
+  font-size: 15px;
 }
 
 .unit-card2 {
@@ -256,9 +260,9 @@ h1 {
 }
 
 .unit-card2-image {
-  width: 40%;
+  width: 30%;
   height: 80%;
-  margin: 25px 200px 0 0;
+  margin: 10px 200px 0 20px;
 }
 
 .unit-card3 {
@@ -270,33 +274,36 @@ h1 {
 
 .unit-service-ttl2 {
   padding-top: 20px;
-  margin: -180px 0 0 220px; 
+  margin: -180px 0 0 150px; 
   font-weight: bold;
   color: #fff;
 }
 
 .unit-service-text2 {
-  margin: 25px 0 0 220px;
+  margin: 25px 0 0 150px;
   color: #fff;
   line-height: 1.75;
+  font-size: 13px;
 }
 
 .unit-card3-image {
-  width: 40%;
+  width: 30%;
   height: 80%;
-  margin: 25px 200px 25px 0;
+  margin: 10px 200px 0 20px;
 }
 
 .unit-service-ttl3 {
-  padding-top: 20px;
-  margin: -200px 0 0 220px;
+  padding-top: 40px;
+  margin: -200px 0 0 150px;
   font-weight: bold;
   color: #fff;
 }
 
 .unit-service-text3 {
-  margin: 25px 0 0 220px;
+  margin: 25px 0 0 150px;
   color: #fff;
+  font-size: 13px;
+  line-height: 1.75;
 }
 
 .unit-blog {
@@ -448,7 +455,7 @@ table td {
 }
 
 .unit-image1 {
-  width: 720px;
+  width: 120%;
 }
 
 .unit-img1 {
@@ -459,14 +466,14 @@ table td {
   color: #fff;
   font-size: 30px;
   position: absolute;
-  top: 100px;
-  left: 300px;
+  top: 30%;
+  left: 45%;
   font-weight: bold;
 
 }
 
 .unit-image2 {
-  width: 720px;
+  width: 120%;
 }
 
 .unit-img2 {
@@ -477,8 +484,8 @@ table td {
   color: #fff;
   font-size: 30px;
   position: absolute;
-  top: 100px;
-  right: 200px;
+  top: 30%;
+  right: 25%;
   font-weight: bold;
 }
 
@@ -496,7 +503,7 @@ table td {
 
 .unit-contact-center {
   position: absolute;
-  left: 710px;
+  left: 50%;
   top: 100px;
   background: #B61F6E;
   width: 3px;
@@ -541,8 +548,4 @@ table td {
   color: #7f7f7f;
   display: block;
   padding-top: 15px;
-}
-
-* {
-  outline: 2px solid red;
 }
